@@ -4,3 +4,8 @@ Style/StringLiterals:
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: always
+  Exclude:
+    - "Gemfile"
+    - "Rakefile"
+    - "bin/*"
+    - "buda.gemspec"
