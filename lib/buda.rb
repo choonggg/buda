@@ -1,3 +1,6 @@
+# frozen-string-literal: true
+
+require "rack"
 require "buda/version"
 
 module Buda
