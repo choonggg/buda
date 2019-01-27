@@ -1,11 +1,16 @@
 # frozen_string_literal: true
 
 RSpec.describe Buda do
-  it "has a version number" do
-    expect(Buda::VERSION).not_to be nil
+  include Rack::Test::Methods
+
+  let(:app) { Buda.new }
+
+  it "returns" do
+    get '/'
+    expect(last_response.status).to eq(200)
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "has a version number" do
+    expect(Buda::VERSION).not_to be nil
   end
 end

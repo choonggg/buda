@@ -1,8 +1,8 @@
 # Buda
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/buda`. To experiment with that code, run `bin/console` for an interactive prompt.
+An attempt to copy [Roda](https://github.com/jeremyevans/roda) exactly to learn the inner workings of a Rack based framework.
 
-TODO: Delete this and the text above, and describe your gem
+To experiment with that code, run `bin/console` for an interactive prompt.
 
 ## Installation
 
@@ -19,10 +19,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install buda
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
